@@ -59,7 +59,7 @@ def download_and_load_gpt2(model_size, models_dir):
     return settings, params
 
 
-"""
+
 def download_file(url, destination):
     # Send a GET request to download the file in streaming mode
     response = requests.get(url, stream=True)
@@ -86,7 +86,7 @@ def download_file(url, destination):
             for chunk in response.iter_content(block_size):
                 progress_bar.update(len(chunk))  # Update progress bar
                 file.write(chunk)  # Write the chunk to the file
-"""
+
 
 
 def download_file(url, destination):
